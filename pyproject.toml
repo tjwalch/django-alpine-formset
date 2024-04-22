@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+    "setuptools>=64",
+    "setuptools-scm>=8"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-alpine-formset"
+dynamic = ["version"]
+author = [
+    {name = "Tomas Walch", email = "tomas@alternaliv.se"}
+]
+description = "A set of template tags to easily work with Django formsets in frontend code using Alpine JS"
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = [
+    "django>=3.2"
+]
+requires-python = ">= 3.8"
+
+[tool.setuptools_scm]
