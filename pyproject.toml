@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "django-alpine-formset"
 dynamic = ["version"]
-author = [
+authors = [
     {name = "Tomas Walch", email = "tomas@alternaliv.se"}
 ]
 description = "A set of template tags to easily work with Django formsets in frontend code using Alpine JS"
